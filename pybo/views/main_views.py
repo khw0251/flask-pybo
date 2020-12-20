@@ -1,9 +1,4 @@
 from flask import Blueprint, render_template, request
-import sklearn
-from sklearn.model_selection import train_test_split
-import tensorflow as tf
-from tensorflow import keras
-import keras.backend as K
 import pandas as pd
 import numpy as np
 from sklearn.metrics import mean_squared_error
